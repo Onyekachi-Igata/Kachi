@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      form {
+        font-size: 20px;
+        font-weight: 600;
+        color: blueviolet;
+      }
+      input {
+        background-color: whitesmoke;
+        padding: 5px;
+        border-color: gray;
+        width: 300px;
+      }
+      select {
+        width: 200px;
+        height: 25px;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgba(102, 94, 46, 0.096)">
+    <form action="/action_page.php">
+      <h1>Bio Data Form</h1>
+      <div>
+        <label for="fname">First Name</label><br/>
+        <input type="text" id="fname" name="Iname" placeholder="First Name" />
+        <br />
+        <br />
+
+        <label for="Iname">Last Name</label>
+        <br/>
+        <input type="text" id="Iname" name="Iname" placeholder="Last name" />
+        <br />
+        <br />
+        <label>Email Address</label>
+        <br/>
+        <input type="email" placeholder="Email" />
+        <br />
+        <br />
+        <label>Gender</label>
+        <br/>
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Others</option>
+        </select>
+        <br />
+        <br />
+        <label>Phone Number</label>
+        <br/>
+        <input type="number" placeholder="Phone Number" />
+        <br />
+        <br />
+        <label>Password</label>
+        <br>
+        <input type="password" placeholder="Password" />
+        
+        <input type="submit" style="width: auto; background-color: green" />
+      </div>
+    </form>
+  </body>
+</html>
